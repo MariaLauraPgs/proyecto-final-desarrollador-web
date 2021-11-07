@@ -1,0 +1,28 @@
+
+.logo{
+    border-radius: 50%;
+    border: 2px solid #577c74;
+    width: 100px;
+    height: 100px;
+}
+
+.nombre-empresa{
+    height: 50px;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+#fondo-color{
+    background: linear-gradient( rgb(30, 51, 49), rgb(112, 168, 156));
+}
+
+.flex-container{
+    background: linear-gradient( rgb(30, 51, 49), rgb(112, 168, 156));
+    height: 25%; 
+       
+    display: flex;
+    flex-direction: row;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}

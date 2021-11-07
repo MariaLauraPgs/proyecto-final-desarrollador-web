@@ -1,0 +1,159 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+.logo {
+  border-radius: 50%;
+  border: 2px solid #577c74;
+  width: 100px;
+  height: 100px; }
+
+.nombre-empresa {
+  height: 50px;
+  display: flex;
+  align-items: flex-end; }
+
+#fondo-color {
+  background: linear-gradient(#1e3331, #70a89c); }
+
+.flex-container {
+  background: linear-gradient(#1e3331, #70a89c);
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row nowrap;
+  justify-content: space-between; }
+
+.principal-page {
+  background-image: url(../img/herramientas-carpintero.jpg);
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-position: center center; }
+
+.fondo {
+  background-image: url(../img/grass-hires.jpg);
+  background-size: cover; }
+
+h1 {
+  color: #1e3333;
+  text-shadow: 1px 1px cornsilk;
+  font-size: 100px;
+  text-align: left;
+  line-height: 80px;
+  height: 50px;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  padding-top: 80px;
+  height: 50px; }
+
+h2 {
+  color: black;
+  background-color: cornsilk;
+  font-size: 40px;
+  text-align: left;
+  line-height: 50px;
+  height: 50px;
+  width: 100%;
+  font-family: 'Montserrat Subrayada', sans-serif; }
+
+h3 {
+  background-color: #799e9b;
+  width: 160vh; }
+
+/* TABLAS Y FORMULARIOS*/
+.seleccion-detalle {
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  background-color: rgba(121, 158, 155, 0.623);
+  height: 35vh;
+  width: 90vh;
+  margin: 2px;
+  border: solid 5px #799e9b;
+  padding: 5px;
+  display: inline-block; }
+
+.formulario {
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: solid #799e9b 6px;
+  height: 35vh;
+  width: 160vh; }
+
+.descripcion-producto {
+  display: inline-block; }
+
+/* PÁGINA TRABAJOS */
+.grid-container-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 0px;
+  grid-template-areas: "main2 main2 main2"; }
+
+.grid-container-main div img {
+  padding: 10px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly; }
+
+#main2 {
+  grid-area: main2;
+  background-image: url(../img/fondo-maderas.jpg);
+  background-size: cover;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  gap: 10px; }
+
+.flex-container {
+  background: linear-gradient(#1e3331, #70a89c);
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row nowrap;
+  justify-content: space-between; }
+
+.black-background {
+  width: 230px;
+  height: 80px; }
+
+/* PÁGINA TRABAJOS */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 0px;
+  grid-template-areas: "footer footer1 footer2";
+  background: linear-gradient(#70a89c, #1e3331); }
+
+#footer {
+  grid-area: footer; }
+
+#footer1 {
+  grid-area: footer1; }
+
+#footer2 {
+  grid-area: footer2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px; }
+
+.presente {
+  position: sticky;
+  top: 20px;
+  left: 20px; }
+
+/* Color de íconos redes sociales y mas */
+.btn-twitter {
+  background-color: #3f3ff5; }
+
+.btn-facebook {
+  background-color: #281c94; }
+
+.btn-instagram {
+  background-color: #ce287b; }
+
+.btn-github {
+  background-color: black; }

@@ -1,0 +1,64 @@
+.flex-container{
+    background: linear-gradient( rgb(30, 51, 49), rgb(112, 168, 156));
+    height: 25%; 
+       
+    display: flex;
+    flex-direction: row;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.black-background{
+    width: 230px;
+    height: 80px;
+}
+
+
+/* PÁGINA TRABAJOS */  
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 0px;
+    grid-template-areas: 
+    "footer footer1 footer2";
+
+    background: linear-gradient( rgb(112, 168, 156), rgb(30, 51, 49));
+
+} 
+
+#footer{
+    grid-area: footer;
+}
+
+#footer1{
+    grid-area: footer1;
+}
+
+#footer2{
+    grid-area: footer2;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+   
+}
+
+.presente{
+    position: sticky;
+    top: 20px;
+    left: 20px;
+}
+
+/* Color de íconos redes sociales y mas */
+@each $red, $color in $redes {
+    .btn-#{$red} {
+        background-color: $color;
+    }
+}
+
+
+

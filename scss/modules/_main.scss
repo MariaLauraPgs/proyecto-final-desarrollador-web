@@ -1,0 +1,98 @@
+.principal-page{
+    background-image: url(../img/herramientas-carpintero.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: center center;  
+}
+
+.fondo{
+    background-image: url(../img/grass-hires.jpg);
+    background-size: cover;
+}
+
+h1{
+    color:rgb(30, 51, 51);
+    text-shadow: 1px 1px cornsilk;
+    font-size: 100px;
+    text-align: left; 
+    line-height: 80px;                                                                                                                      height:50px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    padding-top: 80px;
+    height:50px;
+}
+
+h2{
+    color:black;
+    background-color:cornsilk;
+    font-size: 40px;
+    text-align: left; 
+    line-height:50px;                                                        
+    height:50px;
+    width: 100%;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+h3{
+    background-color: rgb(121, 158, 155);
+    width: 160vh;
+}
+
+
+/* TABLAS Y FORMULARIOS*/
+
+.seleccion-detalle{
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+    background-color: rgba(121, 158, 155, 0.623);
+    height: 35vh;
+    width: 90vh;
+    margin: 2px;
+    border: solid 5px rgb(121, 158, 155);
+    padding: 5px;
+    display: inline-block;
+}
+
+.formulario{
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid rgb(121, 158, 155) 6px;
+    height: 35vh;
+    width: 160vh;
+}
+
+.descripcion-producto{
+    display: inline-block;
+}
+
+
+/* PÁGINA TRABAJOS */  
+
+.grid-container-main{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 0px;
+    grid-template-areas: 
+    "main2 main2 main2";
+} 
+
+.grid-container-main div img{
+   padding: 10px;
+   
+   
+   display:flex;
+   flex-flow: wrap;
+   justify-content: space-evenly;
+}
+
+#main2{
+    grid-area: main2;
+    background-image: url(../img/fondo-maderas.jpg);
+    background-size: cover;
+   
+    
+    grid-column-start: 3;
+    grid-column-end: 6;
+    gap: 10px;
+}
